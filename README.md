@@ -8,6 +8,8 @@
   - [berliner](https://github.com/hypergravity/berliner): some tools on processing stellar tracks and isochrones
   - [regli](https://github.com/hypergravity/regli): a fast, high-dimension linear interpolation tool (faster than the scipy version)
   - [songcn](https://github.com/hypergravity/songcn): a reduction pipeline (of echelle spectra) for the song-china project
+- Paperdata:
+  - paper data can be found in tht repository [paperdata](https://github.com/hypergravity/paperdata). [new!]
 - Related projects: 
   - **LAMOST**: 
     a large spectroscopic survey at R~1800/7500
