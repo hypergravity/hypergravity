@@ -8,12 +8,14 @@
   - [berliner](https://github.com/hypergravity/berliner): some tools on processing stellar tracks and isochrones
   - [regli](https://github.com/hypergravity/regli): a fast, high-dimension linear interpolation tool (faster than the scipy version)
   - [songcn](https://github.com/hypergravity/songcn): a reduction pipeline (of echelle spectra) for the song-china project
-- Install packages
+- Install my packages
   - `pip install -U git+git://github.com/hypergravity/astroslam`
   - `pip install -U git+git://github.com/hypergravity/laspec`
   - `pip install -U git+git://github.com/hypergravity/berliner`
   - `pip install -U git+git://github.com/hypergravity/regli`
   - `pip install -U git+git://github.com/hypergravity/songcn`
+- Install frequently used packages
+  - `pip install -U astropy ginga scikit-learn joblib emcee corner ipyparallel`
 - Paperdata:
   - paper data can be found in tht repository [paperdata](https://github.com/hypergravity/paperdata). [new!]
 - Related projects: 
