@@ -1,7 +1,7 @@
 
 - I'm a post-doc at Department of Astronomy, Beijing Normal University (BNU).
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
-- I'm currently working on binary stars.
+- I'm currently working on spectroscopic binary stars.
 - You can find some useful repositories in my github page, including
   - [slam](https://github.com/hypergravity/astroslam): extracting stellar parameters from spectra using a forward modelling
   - [laspec](https://github.com/hypergravity/laspec): several modules designed for LAMOST spectra
@@ -23,6 +23,6 @@
     a large spectroscopic survey at R~1800/7500
   - **SONG**: 
     a time-domain global observation network with R~36,000-180,000. 
-
+- [**New!**] For the slides on spectroscopy @Nanjing (2020-11-06), click [**here**](https://github.com/hypergravity/spectroscopy)
 
     
