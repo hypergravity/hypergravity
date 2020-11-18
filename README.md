@@ -21,8 +21,8 @@
     a large spectroscopic survey at R~1800/7500
   - **SONG**: 
     a time-domain global observation network with R~36,000-180,000. 
-- [**new!**] Paperdata:
+- [**NEW!**] Paperdata:
   - paper data can be found in tht repository [paperdata](https://github.com/hypergravity/paperdata).
-- [**New!**] For the slides on spectroscopy @Nanjing (2020-11-06), click [**here**](https://github.com/hypergravity/spectroscopy)
+- [**NEW!**] For the slides on spectroscopy @Nanjing (2020-11-06), click [**here**](https://github.com/hypergravity/spectroscopy)
 
     
