@@ -2,7 +2,8 @@
 - I'm a post-doc at Department of Astronomy, Beijing Normal University (BNU).
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
 - I'm currently working on spectroscopic binary stars.
-- Related facilities: 
+
+## Related facilities: 
   - **LAMOST**: 
     a large spectroscopic survey at R~1800/7500
   - **SONG**: 
@@ -11,7 +12,7 @@
     - BFOSC E9+G10 (R~10,000)
     - High resolution spectrograph (HRS, R~40,000)
     
-## Recent
+## Recent Events [updated on 2020-11-06]
 - [**NEW!**] Paperdata:
   - paper data can be found in tht repository [**paperdata**](https://github.com/hypergravity/paperdata).
 - [**NEW!**] 2020-11-06
@@ -24,11 +25,11 @@
   - [berliner](https://github.com/hypergravity/berliner): some tools on processing stellar tracks and isochrones
   - [regli](https://github.com/hypergravity/regli): a fast, high-dimension linear interpolation tool (faster than the scipy version)
   - [songcn](https://github.com/hypergravity/songcn): a reduction pipeline (of echelle spectra) for the song-china project
-- Install my packages
+- To install my packages
   - `pip install -U git+git://github.com/hypergravity/astroslam`
   - `pip install -U git+git://github.com/hypergravity/laspec`
   - `pip install -U git+git://github.com/hypergravity/berliner`
   - `pip install -U git+git://github.com/hypergravity/regli`
   - `pip install -U git+git://github.com/hypergravity/songcn`
-- Install frequently used packages
+- To install frequently used packages
   - `pip install -U astropy ginga scikit-learn joblib emcee corner ipyparallel`
