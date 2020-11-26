@@ -12,7 +12,7 @@
     - BFOSC E9+G10 (R~10,000)
     - High resolution spectrograph (HRS, R~40,000)
     
-## Recent Events [updated on 2020-11-06]
+## Recent Events [last update: 2020-11-06]
 - [**NEW!**] Paperdata:
   - paper data can be found in tht repository [**paperdata**](https://github.com/hypergravity/paperdata).
 - [**NEW!**] 2020-11-06
