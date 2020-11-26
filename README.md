@@ -2,15 +2,15 @@
 - I'm a post-doc/LAMOST Fellow at Department of Astronomy, Beijing Normal University (BNU).
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
 - I'm recently working on spectroscopic binary stars.
+- I have developed automated pipelines for the **SONG** and **BFOSC**.
 
 ## Related facilities: 
   - **LAMOST**: 
-    A large optical spectroscopic survey at R~1800/7500
+    A large optical spectroscopic survey at R=1,800/7,500
   - **SONG**: 
-    A time-domain global observation network at R~36,000-180,000. 
-  - **Xinglong 2.16m**
-    - BFOSC E9+G10 (R~10,000)
-    - High resolution spectrograph (HRS, R~40,000)
+    A time-domain global observation network at R=36,000-180,000. 
+  - **Xinglong 2.16m**:
+    BFOSC E9+G10 (R=10,000) / HRS (R=40,000)
     
 ## Recent Events 
 [last updated: 2020-11-06]
