@@ -1,7 +1,19 @@
-
+## A self-introduction
 - I'm a post-doc at Department of Astronomy, Beijing Normal University (BNU).
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
 - I'm currently working on spectroscopic binary stars.
+- Related projects: 
+  - **LAMOST**: 
+    a large spectroscopic survey at R~1800/7500
+  - **SONG**: 
+    a time-domain global observation network with R~36,000-180,000. 
+    
+## Recent
+- [**NEW!**] Paperdata:
+  - paper data can be found in tht repository [**paperdata**](https://github.com/hypergravity/paperdata).
+- [**NEW!**] For the slides on spectroscopy @Nanjing (2020-11-06), click [**here**](https://github.com/hypergravity/spectroscopy)
+
+## My packages
 - You can find some useful repositories in my github page, including
   - [slam](https://github.com/hypergravity/astroslam): extracting stellar parameters from spectra using a forward modelling
   - [laspec](https://github.com/hypergravity/laspec): several modules designed for LAMOST spectra
@@ -16,13 +28,3 @@
   - `pip install -U git+git://github.com/hypergravity/songcn`
 - Install frequently used packages
   - `pip install -U astropy ginga scikit-learn joblib emcee corner ipyparallel`
-- Related projects: 
-  - **LAMOST**: 
-    a large spectroscopic survey at R~1800/7500
-  - **SONG**: 
-    a time-domain global observation network with R~36,000-180,000. 
-- [**NEW!**] Paperdata:
-  - paper data can be found in tht repository [paperdata](https://github.com/hypergravity/paperdata).
-- [**NEW!**] For the slides on spectroscopy @Nanjing (2020-11-06), click [**here**](https://github.com/hypergravity/spectroscopy)
-
-    
