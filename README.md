@@ -6,12 +6,15 @@
   - **LAMOST**: 
     a large spectroscopic survey at R~1800/7500
   - **SONG**: 
-    a time-domain global observation network with R~36,000-180,000. 
+    a time-domain global observation network at R~36,000-180,000. 
+  - **Xinglong 2.16m**
+    BFOSC E9+G10 (R~10,000) and High resolution spectrograph (HRS, R~40,000)
     
 ## Recent
 - [**NEW!**] Paperdata:
   - paper data can be found in tht repository [**paperdata**](https://github.com/hypergravity/paperdata).
-- [**NEW!**] For the slides on spectroscopy @Nanjing (2020-11-06), click [**here**](https://github.com/hypergravity/spectroscopy)
+- [**NEW!**] 2020-11-06
+  - For the slides on spectroscopy @Nanjing, click [**here**](https://github.com/hypergravity/spectroscopy)
 
 ## My packages
 - You can find some useful repositories in my github page, including
