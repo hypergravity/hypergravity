@@ -15,7 +15,7 @@
 ## Recent Events 
 [last updated: 2020-11-06]
 - [**NEW!**] Paperdata:
-  - paper data can be found in tht repository [**paperdata**](https://github.com/hypergravity/paperdata).
+  - paper data can be found in the repository [**paperdata**](https://github.com/hypergravity/paperdata).
 - [**NEW!**] 2020-11-06
   - For the slides on spectroscopy @Nanjing, click [**here**](https://github.com/hypergravity/spectroscopy)
 
