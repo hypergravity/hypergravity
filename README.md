@@ -14,9 +14,11 @@
     
 ## Recent Events 
 [last updated: 2020-11-06]
-- [**NEW!**] Paperdata:
+- 2021-01-23: Documentation for **laspec** [**NEW!**]:
+  - [https://laspec.readthedocs.io/en/latest/](https://laspec.readthedocs.io/en/latest/)
+- 2020-11-06: Paperdata:
   - paper data can be found in the repository [**paperdata**](https://github.com/hypergravity/paperdata).
-- [**NEW!**] 2020-11-06
+- 2020-11-06: Spectroscopy slides
   - For the slides on spectroscopy @Nanjing, click [**here**](https://github.com/hypergravity/spectroscopy)
 
 ## My packages
