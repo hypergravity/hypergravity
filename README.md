@@ -13,7 +13,7 @@
     **BFOSC** E9+G10 (R=10,000) / **HRS** (R=40,000)
     
 ## Recent Events 
-[last updated: 2020-11-06]
+[last updated: 2021-01-23]
 - 2021-01-23: Documentation for **laspec** [**NEW!**]:
   - [https://laspec.readthedocs.io/en/latest/](https://laspec.readthedocs.io/en/latest/)
 - 2020-11-06: Paperdata:
