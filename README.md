@@ -13,7 +13,9 @@
     **BFOSC** E9+G10 (R=10,000) / **HRS** (R=40,000)
     
 ## Recent Events 
-[last updated: 2021-01-23]
+[last updated: 2021-04-05]
+- 2021-04-05: Uploaded RV & RVZPs of LAMOST MRS DR7
+  - [https://github.com/hypergravity/paperdata](https://github.com/hypergravity/paperdata)
 - 2021-01-23: Documentation for **laspec** [**NEW!**]:
   - [https://laspec.readthedocs.io/en/latest/](https://laspec.readthedocs.io/en/latest/)
 - 2020-11-06: Paperdata:
