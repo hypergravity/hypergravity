@@ -13,9 +13,9 @@
     **BFOSC** E9+G10 (R=10,000) / **HRS** (R=40,000)
     
 ## Recent Events 
-[last updated: 2021-04-05]
+[last updated: 2021-05-20]
 - 2021-05-20: Added SLAM+
-  - A tutorial is [**here**](https://nbviewer.jupyter.org/github/hypergravity/laspec/blob/master/tutorial/20210520_slamplus_tutorial.ipynb)
+  - A tutorial is [**here**](https://nbviewer.jupyter.org/github/hypergravity/laspec/blob/master/tutorial/20210520_slamplus_tutorial.ipynb), test data is [**here**](http://paperdata.china-vo.org/bozhang/slamplus/slamplus_test_data.dump).
 - 2021-04-05: Uploaded RV & RVZPs of LAMOST MRS DR7
   - [https://github.com/hypergravity/paperdata](https://github.com/hypergravity/paperdata)
 - 2021-01-23: Documentation for **laspec** [**NEW!**]:
