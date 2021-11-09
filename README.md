@@ -15,7 +15,7 @@
 ## Recent Events 
 [last updated: 2021-11-09]
 - 2021-11-09: Added SLAM-PyTorch
-  - A tutorial is [**here**](https://github.com/hypergravity/laspec/blob/master/tutorial/20211109_tutorial_slam_pytorch.ipynb), test data link inside.
+  - A tutorial is [**here**](https://nbviewer.org/github/hypergravity/laspec/blob/master/tutorial/20211109_tutorial_slam_pytorch.ipynb), test data link inside.
 - 2021-04-05: Uploaded RV & RVZPs of LAMOST MRS DR7
   - [https://github.com/hypergravity/paperdata](https://github.com/hypergravity/paperdata)
 - 2021-01-23: Documentation for **laspec** [**NEW!**]:
