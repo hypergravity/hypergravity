@@ -13,7 +13,7 @@
     **BFOSC** E9+G10 (R=10,000) / **HRS** (R=40,000)
     
 ## Recent Events 
-[last updated: 2021-05-09]
+[last updated: 2021-11-09]
 - 2021-11-09: Added SLAM-PyTorch
   - A tutorial is [**here**](https://github.com/hypergravity/laspec/blob/master/tutorial/20211109_tutorial_slam_pytorch.ipynb), test data link inside.
 - 2021-04-05: Uploaded RV & RVZPs of LAMOST MRS DR7
