@@ -3,12 +3,12 @@
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
 - I'm recently working on spectroscopic binary stars in **LAMOST** (R=1,800/7,500).
 - I have developed automated pipelines for the **SONG-China** (R=36,000-180,000).
-- Interested in my packages? Click [**here**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md)!
+- Interested in my **packages**? Click [**here**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md)!
     
 ## Recent Events
 [last updated: 2021-11-15]
 - 2021-11-25:
-  - Will appear in the [PIA@NAOC](https://github.com/hypergravity/pianaoc)
+  - Will appear in the [**PIA@NAOC**](https://github.com/hypergravity/pianaoc)
 - 2021-11-09: Added SLAM-PyTorch
   - A tutorial is [**here**](https://nbviewer.org/github/hypergravity/laspec/blob/master/tutorial/20211109_tutorial_slam_pytorch.ipynb), test data link inside.
 - 2021-04-05: Uploaded RV & RVZPs of LAMOST MRS DR7
