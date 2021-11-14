@@ -1,4 +1,4 @@
-## My packages
+# My packages
 - You can find some useful repositories in my github page, including
   - [slam](https://github.com/hypergravity/astroslam): extracting stellar parameters from spectra using a forward modelling
   - [laspec](https://github.com/hypergravity/laspec): several modules designed for LAMOST spectra
