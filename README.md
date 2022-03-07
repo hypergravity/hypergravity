@@ -1,9 +1,8 @@
 ## A self-introduction
-- I'm a post-doc/**LAMOST Fellow** at Department of Astronomy, Beijing Normal University (BNU).
+- I'm an Assistant Researcher in the CSST Group, NAOC.
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
-- I'm recently working on spectroscopic binary stars in **LAMOST** (R=1,800/7,500).
-- I have developed automated pipelines for the **SONG-China** (R=36,000-180,000).
-- Interested in my **packages**? Click [**here**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md)!
+- I was / am working on some projects based on the CSST, LAMOST, SONG-China, etc.
+- My packages can be installed via [**this link**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md).
     
 ## Recent Events
 [last updated: 2021-11-18]
