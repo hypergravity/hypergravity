@@ -1,7 +1,7 @@
 ## A self-introduction
-- I'm an Assistant Researcher in the CSST Group, NAOC.
+- I'm a staff in the CSST Group, NAOC.
 - I'm interested in applying machine learning techniques to stellar spectroscopy.
-- I was / am working on some projects based on the CSST, LAMOST, SONG-China, etc.
+- I work on several facilities, e.g., CSST, LAMOST, SONG-China.
 - My packages can be installed via [**this link**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md).
     
 ## Recent Events
