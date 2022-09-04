@@ -1,6 +1,6 @@
 ## A self-introduction
-- I'm a staff in the CSST Group, NAOC.
-- I'm interested in applying machine learning techniques to stellar spectroscopy.
+- I'm a staff member of CSST Group, NAOC.
+- I'm interested in applications of machine learning in stellar spectroscopy.
 - I work on several facilities, e.g., CSST, LAMOST, SONG-China.
 - My packages can be installed via [**this link**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md).
     
