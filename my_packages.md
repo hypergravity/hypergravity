@@ -6,10 +6,10 @@
   - [regli](https://github.com/hypergravity/regli): a fast, high-dimension linear interpolation tool (faster than the scipy version)
   - [songcn](https://github.com/hypergravity/songcn): a reduction pipeline (of echelle spectra) for the song-china project
 - To install my packages
-  - `pip install -U git+git://github.com/hypergravity/astroslam`
-  - `pip install -U git+git://github.com/hypergravity/laspec`
-  - `pip install -U git+git://github.com/hypergravity/berliner`
-  - `pip install -U git+git://github.com/hypergravity/regli`
-  - `pip install -U git+git://github.com/hypergravity/songcn`
+  - `pip install -U git+https://github.com/hypergravity/astroslam.git`
+  - `pip install -U git+https://github.com/hypergravity/laspec.git`
+  - `pip install -U git+https://github.com/hypergravity/berliner.git`
+  - `pip install -U git+https://github.com/hypergravity/regli.git`
+  - `pip install -U git+https://github.com/hypergravity/songcn.git`
 - To install frequently used packages
   - `pip install -U astropy ginga scikit-learn joblib numba emcee corner ipyparallel`
