@@ -1,7 +1,7 @@
 ===================
 P&V(2002) algorithm
 ===================
-The original P&V (2002) algorithm minimizes the cost
+The original `P&V (2002) algorithm <https://ui.adsabs.harvard.edu/abs/2002A%26A...385.1095P/abstract>`_ minimizes the cost
 
 .. math::
 
