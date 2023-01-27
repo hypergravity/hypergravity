@@ -3,7 +3,5 @@ P&V(2002) algorithm
 
 Add some content.
 
-----
-
 .. automodule:: songcn.core.pv2002
     :members:
