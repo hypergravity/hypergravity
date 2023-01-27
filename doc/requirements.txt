@@ -4,3 +4,13 @@ recommonmark
 furo
 git+https://github.com/hypergravity/songcn.git
 #git+https://github.com/hypergravity/laspec.git
+astropy
+ccdproc
+joblib
+matplotlib
+numpy
+scikit-image
+scikit-learn
+tqdm
+scipy
+pyqt5
