@@ -84,7 +84,30 @@ A long-slit galaxy spectrum
 Tutorial
 --------
 
-A tutorial on using this P&V algorithm implementation is available at https://nbviewer.org/github/hypergravity/songcn/blob/master/tutorials/Tutorial_PV2002.ipynb.
+.. code-block:: python
+
+    # load data
+    import joblib
+    data = joblib.load("./spec2d.z")
+    ap_xx = data['ap_xx']
+    ap_yy = data['ap_yy']
+    ap_img = data['ap_img']
+    ap_remainders = data['ap_remainders']
+    # ap_img[10, 5:8] = 50000
+
+    # initiate PV2002 solver
+    from songcn.core.pv2002 import PV2002
+    pv = PV2002(S_lambda_x=ap_img, remainders=ap_remainders, osr=5, Lrel=10, xx=ap_xx, yy=ap_yy)
+
+    # reduce spectrum
+    pv.reduce(n_iter=10, tol_f_lambda=1e-3, tol_g_j=1e-10)
+
+    # plot result
+    fig = pv.plot_result()
+
+
+
+This tutorial on using this P&V algorithm implementation is available at https://nbviewer.org/github/hypergravity/songcn/blob/master/tutorials/Tutorial_PV2002.ipynb.
 
 Test data is at https://github.com/hypergravity/songcn/blob/master/songcn/data/test_pv2002/spec2d.z.
 
