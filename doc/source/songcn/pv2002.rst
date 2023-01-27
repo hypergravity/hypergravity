@@ -1,3 +1,4 @@
+===================
 P&V(2002) algorithm
 ===================
 The original P&V (2002) algorithm minimizes the cost
@@ -72,22 +73,24 @@ where
 	& \boldsymbol{\mathrm{D}}_{\lambda} = \sum_{x} \left[ \sum_j w_{\lambda,x}^j g_j \right]^2.
 
 
-
+---------------------------
 A long-slit galaxy spectrum
 ---------------------------
 
 .. image:: ./test_216bfost_long_slit.png
 
+
+--------
 Tutorial
-========
+--------
 
 A tutorial on using this P&V algorithm implementation is available at https://nbviewer.org/github/hypergravity/songcn/blob/master/tutorials/Tutorial_PV2002.ipynb.
 
 Test data is at https://github.com/hypergravity/songcn/blob/master/songcn/data/test_pv2002/spec2d.z.
 
-
+---
 API
-===
+---
 
 .. autoclass:: songcn.core.pv2002.PV2002
     :members:
