@@ -70,6 +70,6 @@ html_theme = 'furo'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_title = "Bo Zhang's scratch board"
+html_title = "my scratch board"
 html_short_title = "hypergravity"
 html_codeblock_linenos_style = "table"
