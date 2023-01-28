@@ -35,7 +35,7 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None):
         {
             'q': query,
             'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub',
-            'sort': 'date+desc'
+            'sort': 'date'
          }
     )
     results = requests.get(
