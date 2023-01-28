@@ -1,5 +1,5 @@
 from urllib.parse import urlencode
-
+from collections import OrderedDict
 import requests
 from astropy.table import Table
 
@@ -16,7 +16,11 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None):
     print("Query for paper info ...")
     query = f'bibcode:{bibcode}'
     encoded_query = urlencode(
-        {'q': query, 'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub'})
+        {
+            'q': query,
+            'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub'
+        }
+    )
     results = requests.get(
         "https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query),
         headers={'Authorization': 'Bearer ' + token},
@@ -28,7 +32,12 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None):
     print("Query for citation info ...")
     query = f'citations(bibcode:{bibcode})' if year is None else f'citations(bibcode:{bibcode}) year:{year}'
     encoded_query = urlencode(
-        {'q': query, 'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub'})
+        {
+            'q': query,
+            'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub',
+            'sort': 'date+desc'
+         }
+    )
     results = requests.get(
         "https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query),
         headers={'Authorization': 'Bearer ' + token},
@@ -46,8 +55,9 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None):
         elif len(paper_authors.intersection(citation_authors)) > 0:
             print(" - Eliminating self-citation: {}".format(citation["bibcode"]))
         else:
-            citation_others.append(citation)
+            citation_others.append(OrderedDict(citation))
     print(f"Result: {len(citation_others)} citations by others!")
     tbl_citation_others = Table(citation_others)
+    tbl_citation_others.sort("date")
     # tbl_citation_others.show_in_browser()
     return tbl_citation_others
