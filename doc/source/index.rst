@@ -26,6 +26,13 @@ Hi
 
    slam/slam.rst
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :caption: Scratch
+
+   scratch/citation.rst
+
 
 
 Indices and tables
