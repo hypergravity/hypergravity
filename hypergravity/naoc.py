@@ -56,6 +56,7 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None):
             print(" - Eliminating self-citation: {}".format(citation["bibcode"]))
         else:
             citation_others.append(OrderedDict(citation))
+            citation_others[-1]["author"] = "; ".join(citation_others[-1]["author"])
     print(f"Result: {len(citation_others)} citations by others!")
     tbl_citation_others = Table(citation_others)
     tbl_citation_others.sort("date")
