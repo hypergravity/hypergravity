@@ -51,7 +51,7 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None):
     for citation in citation_list:
         citation_authors = {author.lower().replace("-", "") for author in citation["author"]}
         if "arxiv" in citation["bibcode"].lower():
-            print(" - Eliminating un-refereed citation: {}".format(citation["bibcode"]))
+            print(" - Eliminating non-refereed citation: {}".format(citation["bibcode"]))
         elif len(paper_authors.intersection(citation_authors)) > 0:
             print(" - Eliminating self-citation: {}".format(citation["bibcode"]))
         else:
