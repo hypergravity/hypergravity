@@ -1,8 +1,8 @@
-=========================
-Count citations by others
-=========================
+===============
+Count citations
+===============
 
-Step-by-step:
+Count citations by others, step-by-step:
 
 1. Install `hypergravity` via
 
