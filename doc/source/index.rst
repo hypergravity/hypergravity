@@ -10,19 +10,19 @@ Welcome to my scratch board
    :maxdepth: 2
    :caption: Contents:
 
-Hi
+Hi, this is my scratch board.
 
 .. toctree::
    :hidden:
    :maxdepth: 2
-   :caption: 2D Spectra.
+   :caption: 2D Spectra
 
    songcn/pv2002.rst
 
 .. toctree::
    :hidden:
    :maxdepth: 2
-   :caption: 1D Spectra.
+   :caption: 1D Spectra
 
    slam/slam.rst
 
