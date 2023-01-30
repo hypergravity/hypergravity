@@ -8,12 +8,7 @@ Count citations by others, step-by-step:
 
 .. code-block:: bash
 
-    pip install git+https://github.com/hypergravity/hypergravity.git
-
-You will see info like below:
-
-.. code-block::
-
+    $ pip install git+https://github.com/hypergravity/hypergravity.git
     Collecting git+https://github.com/hypergravity/hypergravity.git
       Cloning https://github.com/hypergravity/hypergravity.git to /private/var/folders/2y/b85hkd6543v71b_2f08ycrp00000gn/T/pip-req-build-_uaiq9mi
       Running command git clone --filter=blob:none --quiet https://github.com/hypergravity/hypergravity.git /private/var/folders/2y/b85hkd6543v71b_2f08ycrp00000gn/T/pip-req-build-_uaiq9mi
@@ -32,10 +27,8 @@ You will see info like below:
 2. Run the code below with your article `bibcode`:
 
 .. code-block:: python
-    :linenos:
 
     >>> from hypergravity.naoc import citation_stats
-
     >>> citation_stats(bibcode='2019ApJ...871..184T', year="2000-2022").show_in_browser()
     Using default token ...
     Query for paper info ...
