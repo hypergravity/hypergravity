@@ -50,3 +50,9 @@ You will see info like below:
     Result: 16 citations by others!
 
 3. Check the citations in the webpage carefully.
+
+API
+---
+
+.. automodule:: hypergravity.naoc
+    :members:
