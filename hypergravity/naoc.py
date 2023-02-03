@@ -1,5 +1,6 @@
-from urllib.parse import urlencode
 from collections import OrderedDict
+from urllib.parse import urlencode
+
 import requests
 from astropy.table import Table
 
@@ -51,7 +52,7 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None, 
             'q': query,
             'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub',
             'sort': 'date'
-         }
+        }
     )
     results = requests.get(
         "https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query),
@@ -62,7 +63,8 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None, 
 
     # standardize authors
     paper_authors = {author.lower().replace("-", "") for author in paper_info["author"]}
-    citation_others = []
+    citation_others = [OrderedDict(paper_info), ]
+    citation_others[-1]["author"] = "; ".join(citation_others[-1]["author"])
     for citation in citation_list:
         citation_authors = {author.lower().replace("-", "") for author in citation["author"]}
         if "arxiv" in citation["bibcode"].lower():
