@@ -9,20 +9,6 @@ Count citations by others, step-by-step:
 .. code-block:: bash
 
     $ pip install git+https://github.com/hypergravity/hypergravity.git
-    Collecting git+https://github.com/hypergravity/hypergravity.git
-      Cloning https://github.com/hypergravity/hypergravity.git to /private/var/folders/2y/b85hkd6543v71b_2f08ycrp00000gn/T/pip-req-build-_uaiq9mi
-      Running command git clone --filter=blob:none --quiet https://github.com/hypergravity/hypergravity.git /private/var/folders/2y/b85hkd6543v71b_2f08ycrp00000gn/T/pip-req-build-_uaiq9mi
-      Resolved https://github.com/hypergravity/hypergravity.git to commit d9c62a609a03fef5acd475fde9793fca29b00784
-      Installing build dependencies ... done
-      Getting requirements to build wheel ... done
-      Preparing metadata (pyproject.toml) ... done
-    Building wheels for collected packages: hypergravity
-      Building wheel for hypergravity (pyproject.toml) ... done
-      Created wheel for hypergravity: filename=hypergravity-0.0.1-py3-none-any.whl size=2666 sha256=48767856df743fa4957cd617d4ef97701f1ce41fd12d61970b94408ed983e486
-      Stored in directory: /private/var/folders/2y/b85hkd6543v71b_2f08ycrp00000gn/T/pip-ephem-wheel-cache-hnfq8nf8/wheels/56/de/79/b31b76373e8816382f799838320f7f090e2b8ff6326859f092
-    Successfully built hypergravity
-    Installing collected packages: hypergravity
-    Successfully installed hypergravity-0.0.1
 
 2. Run the code below with your article `bibcode`:
 
