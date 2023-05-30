@@ -1,13 +1,11 @@
 ## A self-introduction
-- I'm a staff member of CSST Group @ National Astronomical Observatories, CAS.
+- I'm a staff member of the CSST Group @ National Astronomical Observatories, CAS.
 - I work on spectroscopic data from LAMOST, SONG-China, and CSST, etc.
 - My interests include applications of machine learning techniques in stellar spectroscopy.
 - My packages can be installed via [**this link**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md).
     
 ## Recent Events
 [last updated: 2021-11-18]
-- 2021-11-25:  Well...it is likely to be postponed
-  - Will appear in the [**PIA@NAOC**](https://github.com/hypergravity/pianaoc)
 - 2021-11-09: Added SLAM-PyTorch
   - A tutorial is [**here**](https://nbviewer.org/github/hypergravity/laspec/blob/master/tutorial/20211109_tutorial_slam_pytorch.ipynb), test data link inside.
 - 2021-04-05: Uploaded RV & RVZPs of LAMOST MRS DR7
