@@ -14,6 +14,7 @@ cryptography
 git+https://github.com/executablebooks/sphinx-copybutton.git
 recommonmark
 furo
+nbsphinx
 git+https://github.com/hypergravity/songcn.git
 git+https://github.com/hypergravity/hypergravity.git
 #git+https://github.com/hypergravity/laspec.git
