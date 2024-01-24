@@ -15,6 +15,13 @@ Hi, this is my scratch board.
 .. toctree::
    :hidden:
    :maxdepth: 2
+   :caption: CSST
+
+   csst/table_model.ipynb
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
    :caption: 2D Spectra
 
    songcn/pv2002.rst

@@ -12,20 +12,21 @@
 #
 import os
 import sys
+
 # sys.path.insert(0, os.path.abspath('.'))
-sys.path.append(os.path.abspath('./slam'))
-sys.path.append(os.path.abspath('./laspec'))
-sys.path.append(os.path.abspath('./songcn'))
-sys.path.append(os.path.abspath('./csst'))
+sys.path.append(os.path.abspath("./slam"))
+sys.path.append(os.path.abspath("./laspec"))
+sys.path.append(os.path.abspath("./songcn"))
+sys.path.append(os.path.abspath("./csst"))
 
 # -- Project information -----------------------------------------------------
 
-project = 'hypergravity'
-copyright = '2023, Bo Zhang'
-author = 'Bo Zhang'
+project = "hypergravity"
+copyright = "2023, Bo Zhang"
+author = "Bo Zhang"
 
 # The full version, including alpha/beta/rc tags
-release = ''
+release = ""
 
 
 # -- General configuration ---------------------------------------------------
@@ -34,6 +35,7 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "nbsphinx",
     "recommonmark",
     "sphinx_copybutton",
     "sphinx.ext.autodoc",
@@ -50,7 +52,7 @@ autodoc_typehints = "description"
 autodoc_class_signature = "separated"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -63,12 +65,12 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'furo'
+html_theme = "furo"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 html_title = "my scratch board"
 html_short_title = "hypergravity"
