@@ -2,7 +2,6 @@
 - I'm a staff member of the CSST Group @ National Astronomical Observatories, CAS.
 - I work on spectroscopic data from LAMOST, SONG-China, and CSST, etc.
 - My interests include applications of machine learning techniques in stellar spectroscopy.
-- My packages can be installed via [**this link**](https://github.com/hypergravity/hypergravity/blob/master/my_packages.md).
     
 ## Recent Events
 [last updated: 2021-11-18]
