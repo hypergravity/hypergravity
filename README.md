@@ -1,5 +1,5 @@
 ## A self-introduction
-- I'm a staff member of the CSST Group @ National Astronomical Observatories, CAS.
+- I'm a staff member of the CSST Group, National Astronomical Observatories, CAS.
 - I work on spectroscopic data from LAMOST, SONG-China, and CSST, etc.
 - My interests include applications of machine learning techniques in stellar spectroscopy.
     
