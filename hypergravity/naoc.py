@@ -2,12 +2,14 @@ from collections import OrderedDict
 from urllib.parse import urlencode
 
 import requests
-from astropy.table import Table
+from astropy.table import Table, Column
 
 from .enc import MY_ADSABS_TOKEN
 
 
-def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None, verbose=True):
+def citation_stats(
+    bibcode="2020ApJS..246....9Z", year="2000-2022", token=None, verbose=True
+):
     """Count refereed citation by others.
 
     Parameters
@@ -29,47 +31,59 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None, 
     # query the paper
     if verbose:
         print("Query for paper info ...")
-    query = f'bibcode:{bibcode}'
+    query = f"bibcode:{bibcode}"
     encoded_query = urlencode(
         {
-            'q': query,
-            'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub'
+            "q": query,
+            "fl": "bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub",
         }
     )
     results = requests.get(
         "https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query),
-        headers={'Authorization': 'Bearer ' + token},
-        params={"rows": 10000}
+        headers={"Authorization": "Bearer " + token},
+        params={"rows": 10000},
     )
     paper_info = results.json()["response"]["docs"][0]
 
     # query citations
     if verbose:
         print("Query for citation info ...")
-    query = f'citations(bibcode:{bibcode})' if year is None else f'citations(bibcode:{bibcode}) year:{year}'
+    query = (
+        f"citations(bibcode:{bibcode})"
+        if year is None
+        else f"citations(bibcode:{bibcode}) year:{year}"
+    )
     encoded_query = urlencode(
         {
-            'q': query,
-            'fl': 'bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub',
-            'sort': 'date'
+            "q": query,
+            "fl": "bibcode,title,author,citation_count,date,pubdate,doi,volume,issue,page,pub",
+            "sort": "date",
         }
     )
     results = requests.get(
         "https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query),
-        headers={'Authorization': 'Bearer ' + token},
-        params={"rows": 10000, property: "refereed"}
+        headers={"Authorization": "Bearer " + token},
+        params={"rows": 10000, property: "refereed"},
     )
     citation_list = results.json()["response"]["docs"]
 
     # standardize authors
     paper_authors = {author.lower().replace("-", "") for author in paper_info["author"]}
-    citation_others = [OrderedDict(paper_info), ]
+    citation_others = [
+        OrderedDict(paper_info),
+    ]
     citation_others[-1]["author"] = "; ".join(citation_others[-1]["author"])
     for citation in citation_list:
-        citation_authors = {author.lower().replace("-", "") for author in citation["author"]}
+        citation_authors = {
+            author.lower().replace("-", "") for author in citation["author"]
+        }
         if "arxiv" in citation["bibcode"].lower():
             if verbose:
-                print(" - Eliminating non-refereed citation: {}".format(citation["bibcode"]))
+                print(
+                    " - Eliminating non-refereed citation: {}".format(
+                        citation["bibcode"]
+                    )
+                )
         elif len(paper_authors.intersection(citation_authors)) > 0:
             if verbose:
                 print(" - Eliminating self-citation: {}".format(citation["bibcode"]))
@@ -79,5 +93,27 @@ def citation_stats(bibcode="2020ApJS..246....9Z", year="2000-2022", token=None, 
     print(f"Result: {len(citation_others)} citations by others!")
     tbl_citation_others = Table(citation_others)
     tbl_citation_others.sort("date")
+
+    # add year column
+    year = list(tbl_citation_others["date"].data)
+    year = [str(y)[:4] for y in year]
+    tbl_citation_others.add_column(Column(name="year", data=year))
+
     # tbl_citation_others.show_in_browser()
-    return tbl_citation_others
+
+    # reorder columns
+    # title, pub, year, volume, issue, page, author, bibcode, etc
+    return tbl_citation_others[
+        "title",
+        "pub",
+        "year",
+        "volume",
+        "issue",
+        "page",
+        "author",
+        "bibcode",
+        "date",
+        "doi",
+        "pubdate",
+        "citation_count",
+    ]
