@@ -48,7 +48,7 @@ def stats(bibcode, year, token, verbose):
     click.echo("\n" + "=" * 80)
     click.echo("他引统计结果请查看网页：")
     click.echo("=" * 80)
-    result.pprint(max_lines=-1, max_width=-1)
+    # result.pprint(max_lines=-1, max_width=-1)
 
 
 if __name__ == "__main__":
