@@ -3,18 +3,10 @@ scipy
 matplotlib
 joblib
 astropy
-ccdproc
-scikit-image
-scikit-learn
-tqdm
-pyqt5
-cryptography
+requests
+click
 # ------- below goes sphinx packages -------
-#sphinx_copybutton==0.5.0 # this does not exclude linenos
+sphinx
 sphinx-copybutton
-recommonmark
 furo
 nbsphinx
-git+https://github.com/hypergravity/songcn.git
-git+https://github.com/hypergravity/hypergravity.git
-#git+https://github.com/hypergravity/laspec.git
