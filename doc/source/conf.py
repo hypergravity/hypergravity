@@ -36,7 +36,6 @@ release = ""
 # ones.
 extensions = [
     "nbsphinx",
-    "recommonmark",
     "sphinx_copybutton",
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
