@@ -5,10 +5,12 @@ version = "0.0.1"
 authors = [
     { name = "Bo Zhang", email = "bozhang@nao.cas.cn" }
 ]
-#dependencies = [
-#    "pyspark[ml]",
-#    "sklearn"
-#]
+dependencies = [
+    "click>=8.0.0",
+]
+
+[project.scripts]
+citation = "hypergravity.cli:cli"
 
 #[project.optional-dependencies]
 #dev = [
