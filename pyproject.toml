@@ -6,7 +6,31 @@ authors = [
     { name = "Bo Zhang", email = "bozhang@nao.cas.cn" }
 ]
 dependencies = [
-    "click>=8.0.0",
+    "numpy==2.4.3",
+    "scipy==1.17.1",
+    "matplotlib==3.10.8",
+    "astropy==7.2.0",
+    "requests==2.32.5",
+    "click==8.3.1",
+]
+
+[project.optional-dependencies]
+dl = [
+    "torch>=1.10.0",
+    "torchvision>=0.11.0",
+]
+bayesian = [
+    "dynesty>=2.0.0",
+    "corner>=2.2.0",
+]
+docs = [
+    "sphinx>=5.0.0",
+    "sphinx-copybutton>=0.5.0",
+    "furo>=2022.0.0",
+    "nbsphinx>=0.8.0",
+]
+all = [
+    "hypergravity[dl,bayesian,docs]",
 ]
 
 [project.scripts]
